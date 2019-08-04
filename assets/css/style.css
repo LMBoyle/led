@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+
+/* Text */
+
+p {
+  font-size: 15px;
+}
+
+#section {
+  color: blue;
+  font-size: 30px;
+}
+
+/* Grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* padding: 10px; */
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid-container > div {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+/* Navbar */
+.navbar {
+  margin: 0 auto;
+  width: 1300px;
+  grid-row: 1;
+  display: grid;
+}
+
+.navbar img {
+  width: 100%;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+}
+
+/* Links */
+.links {
+  background-color: white;
+  margin: 0 auto;
+  grid-column: 1 / span 5;
+  grid-row: 2;
+  display: grid;
+}
+
+.linksHead {
+  grid-column: 1 / span 5;
+  grid-row: 1;
+}
+
+.links img { 
+  width: 100px;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.linksSec {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Services */
+.services {
+  background-color: white;
+  margin: 0 auto;
+  grid-column: 1 / span 5;
+  grid-row: 3;
+  display: grid;
+}
+
+/* Quote Contact */
+.quote {
+  color: white;
+  margin: 0 auto;
+  grid-column: 1 / span 5;
+  grid-row: 4;
+  display: grid;
+}
+
+/* News */
+.news {
+  background-color: white;
+  margin: 0 auto;
+  grid-column: 1 / span 5;
+  grid-row: 5;
+  display: grid;
+}
