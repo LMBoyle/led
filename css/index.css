@@ -128,6 +128,9 @@ nav i {
 }
 
 /* ============== Services ============== */
+#services {
+  line-height: 30px;
+}
 
 #services img {
   width: 100%;
@@ -141,4 +144,21 @@ nav i {
 
 #services .row {
   margin: 50px auto;
+}
+
+.middleAlign {
+  top: 60px;
+}
+
+.justifyRight {
+  text-align: end;
+}
+
+#services h4 {
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+
+#services p {
+  font-size: 1.2em;
 }
