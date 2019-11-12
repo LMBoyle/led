@@ -6,6 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 /* ============== HTML/Body ============== */
+
 body {
   margin: 0;
   padding: 0;
@@ -15,19 +16,32 @@ body {
 
 header {
   padding: 2em 0 1em;
-  margin-top: 1em;
+  margin-top: .2em;
 }
 
-p {
-  color: white
-}
-
-a {
-  color: white
+h1, h2, h3,
+h4, h5, h6,
+p, a {
+  color: white;
 }
 
 a:hover {
-  color: rgb(57, 57, 240)
+  color: #124b92;
+  text-decoration: none;
+}
+
+/* ============== Banner ============== */
+
+#banner {
+  width: 95%;
+  margin: 0 auto;
+  box-shadow: 0 0 6px 8px #124b92;
+}
+
+#bannerSub {
+  font-size: 4em;
+  text-align: center;
+  margin: 15px auto;
 }
 
 /* ============== Nav Bar ============== */
@@ -43,4 +57,34 @@ nav a {
 
 nav i {
   margin: 10px 10px;
+}
+
+/* ============== Scrolling Text ============== */
+#scrollingText {
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+#imgOverlay {
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.carousel-inner {
+  text-align: center;
+  top: 6em;
+  line-height: 100px;
+}
+
+.carousel-inner h2 {
+  font-size: 5em;
+}
+
+.carousel-inner h3 {
+  font-size: 3em;
 }

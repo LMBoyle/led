@@ -20,9 +20,14 @@
   <link href="../css/reset.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
 
+  
+  <!-- jQuery -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
   <!-- Bootstrap JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 
   <!-- Custom JS -->
   <script src="../scripts/script.js"></script>
@@ -31,13 +36,15 @@
 
 <body>
   <header>
-    <!-- Top Banner -->
-    <!-- Logo -->
-    <div class="logo">
+    <!-- Banner -->
+    <div id="banner">
       <a href="index.html">
         <img src="../img/ledtitle.png" width="100%">
       </a>
     </div>
+
+    <!-- Banner Sub Text -->
+    <h2 id="bannerSub"> - Advanced Lighting Systems - </h2>
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg justify-content-center">
@@ -66,48 +73,30 @@
     </nav>
   </header>
 
-  <!-- ! ====================================== FIX BELOW ====================================== -->
-
-
-  </div>
-  <!---->
-  <div class="banner">
-    <div class="container">
-      <script src="js/responsiveslides.min.js"></script>
-      <script>
-        $(function () {
-          $("#slider").responsiveSlides({
-            auto: true,
-            nav: false,
-            speed: 500,
-            namespace: "callbacks",
-            pager: true,
-          });
-        });
-      </script>
-      <div class="slider">
-        <div class="callbacks_container">
-          <ul class="rslides" id="slider">
-            <li>
-              <h2>Full Body Automotive LED Kits</h2>
-              <h3>To headlight replacements...</h3>
-            </li>
-            <li>
-              <h2>commercial lighting</h2>
-              <h3>Make your store shine!</h3>
-            </li>
-            <li>
-              <h2>residential lighting</h2>
-              <h3>Any kind of project you can think of</h3>
-            </li>
-          </ul>
+  <!-- Img w/scrolling text -->
+  <section id="scrollingText" class="carousel slide" data-ride="carousel">
+    <!-- Overlay to help text pop -->
+    <div id="imgOverlay">
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2> From Full Body Automotive LED Kits </h2>
+          <h3> To Headlight Replacements </h3>
+        </div>
+        <div class="carousel-item">
+            <h2> Commercial Lighting </h2>
+            <h3> Make Your Store Shine </h3>
+        </div>
+        <div class="carousel-item">
+            <h2> Residential Lighting </h2>
+            <h3> Any Kind Of Project You Can Think Of </h3>
         </div>
       </div>
-      <!----->
-
     </div>
-  </div>
-  <!---->
+  </section>
+
+  <!-- ! ====================================== FIX BELOW ====================================== -->
+
   <div class="welcome">
     <div class="container">
       <div class="welcome-top">
@@ -162,13 +151,13 @@
               Technology such as dimmer switches, multiple style of controllers, and multiple styles of LED strips.</p>
           </div>
           <div class="col-md-6 blog-pic">
-            <img src="images/ex1.jpg" class="img-responsive" alt="">
+            <img src="#" class="img-responsive" alt="">
           </div>
           <div class="clearfix"></div>
         </div>
         <div class="blog-grids">
           <div class="col-md-6 blog-pic">
-            <img src="images/ex2.jpg" class="img-responsive" alt="">
+            <img src="#" class="img-responsive" alt="">
           </div>
           <div class="col-md-6 blog1">
             <h4><a href="about.html">Motorcycle Lighting</a></h4>
@@ -182,7 +171,7 @@
             <p>Make your vehicle stand out from the rest with innovative LEDs or RGB neon colors.</p>
           </div>
           <div class="col-md-6 blog-pic">
-            <img src="images/ex3.jpg" class="img-responsive" alt="">
+            <img src="#" class="img-responsive" alt="">
           </div>
           <div class="clearfix"></div>
         </div>
