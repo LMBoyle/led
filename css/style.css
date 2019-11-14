@@ -62,3 +62,14 @@ a:hover {
   color: #124b92;
   text-decoration: none;
 }
+
+/* ============== Social Icons ============== */
+.socialIcons {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+}
+
+.socialIcons a {
+  padding: 0 10px
+}
