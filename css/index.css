@@ -7,6 +7,14 @@
   margin: 50px auto;
 }
 
+main {
+  background-image: url("../img/logos/logodkgrey.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 /* ============== Banner ============== */
 
