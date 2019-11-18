@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <title> LED Integrations | Home </title>
 
   <!-- Meta -->
@@ -35,6 +36,7 @@
 </head>
 
 <body>
+
   <header>
     <!-- Banner -->
     <div id="banner">
@@ -47,28 +49,57 @@
     <h2 id="bannerSub"> - Advanced Lighting Systems - </h2>
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg justify-content-center">
-      <div class="navbar-nav">
-        <!-- Home -->
-          <a class="nav-item active" href="index.html"><i class="fas fa-home"></i> 
-            <br /> Home 
-          </a>
-        <!-- About -->
-          <a class="nav-item" href="about.html"><i class="fas fa-address-card"></i> 
-            <br /> About 
-          </a>
-        <!-- Products -->
-          <a class="nav-item" href="products.html"><i class="fas fa-shopping-cart"></i> 
-            <br /> Products 
-          </a>
-        <!-- Gallery -->
-          <a class="nav-item" href="gallery.html"><i class="fas fa-images"></i> 
-            <br /> Gallery
-          </a>
-        <!-- Contact -->
-          <a class="nav-item"  href="contact.html"><i class="fas fa-comments"></i> 
-            <br /> Contact 
-          </a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <!-- Hamburger for small screen -->
+      <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+          <!-- Home -->
+          <li class="nav-item active">
+            <a href="index.html">
+              <i class="fas fa-home"></i> 
+              Home
+            </a>
+          </li>
+          <!-- About -->
+          <li class="nav-item">
+            <a href="about.html">
+              <i class="fas fa-address-card"></i> 
+              About 
+            </a>
+          </li>
+          <!-- Products -->
+          <li class="nav-item">
+            <a href="https://led-integrations.myshopify.com/">
+              <i class="fas fa-shopping-cart"></i> 
+              Products 
+            </a>
+          </li>
+          <!-- Gallery -->
+          <li class="nav-item">
+            <a href="gallery.html">
+              <i class="fas fa-images"></i> 
+              Gallery
+            </a>
+          </li>
+          <!-- Contact -->
+          <li class="nav-item">
+            <a  href="contact.html">
+              <i class="fas fa-comments"></i> 
+              Contact 
+            </a>
+          </li>
+          <!-- Projects -->
+          <li class="nav-item">
+            <a  href="projects.html">
+              <i class="fas fa-tools"></i>
+              Projects 
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
@@ -96,9 +127,15 @@
   </section>
 
   <aside class="socialIcons">
-    <a href=# class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
-    <a href="#" class="facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
-    <a href="#" class="youtube"><i class="fab fa-youtube fa-2x"></i></a>
+    <a href="https://www.instagram.com/ledintegrations/" target="_blank" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="https://www.facebook.com/AdvancedLEDSystems/" target="_blank" class="facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+    <a href="https://www.youtube.com/channel/UCx52hHA7ago74QpMuZQTnBA" target="_blank" class="youtube"><i class="fab fa-youtube fa-2x"></i></a>
+  </aside>
+
+  <!-- TODO hide until start scrolling -->
+  <!-- TODO animation on hover -->
+  <aside class="backToTop">
+    <a href=# class="instagram"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
   </aside>
 
   <main> 
@@ -111,17 +148,17 @@
         </div>
 
         <div class="lightTypes row">
-          <div id="homeLights" class="col">
+          <div id="homeLights" class="col-12 col-lg">
             <h3> Home </h3>
             <img src="../img/logos/logonobgblack.png" />
             <p> Delivering residential lighting to fit your needs: Indoor, outdoor, and project lighting. </p>
           </div>
-          <div id="businessLights" class="col">
+          <div id="businessLights" class="col-12 col-lg">
             <h3> Business </h3>
             <img src="../img/logos/logonobgblack.png" />
             <p> Make your business bright! Spice up your store with RGB kits or strobe lights to draw attention. Use LEDs to become more energy efficient. </p>
           </div>
-          <div id="autoLights" class="col">
+          <div id="autoLights" class="col-12 col-lg">
             <h3> Automotive </h3>
             <img src="../img/logos/logonobgblack.png" />
             <p> LEDs anywhere you can think of! Light bars, neon, inner/outer body, headlight replacement, tail light upgrades. </p>
@@ -249,11 +286,23 @@
         </article>
 
       </section>
+    </div>
+  </main>
+
+  <footer class="text-muted">
+    <div class="container">
+      <p class="text-center"> &copy; 2019 LED Integrations. All rights reserved </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
 
     <!-- ! ====================================== FIX BELOW ====================================== -->
 
       
-          <div class="col-md-7 bottom-right-grid">
+          <!-- <div class="col-md-7 bottom-right-grid">
             <h3>Upcoming Events</h3>
             <div class="event-grids">
               <div class="col-md-5 event-pic">
@@ -303,16 +352,5 @@
           </div>
           <div class="clearfix"></div>
         </div>
-      </div>
-    </div>
-  </main>
-  <!---->
-  <div class="copywrite">
-    <div class="container">
-      <p> © 2016 LED Integrations. All rights reserved</p>
-    </div>
-  </div>
-  <!---->
-</body>
+      </div> -->
 
-</html>

@@ -5,24 +5,21 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
-/* ============== Custom Fonts ============== */
+/* #region ==================================== Custom Fonts ==================================== */
 
 @font-face {
   font-family: "Neuropolitical";
-  src: url(neuropolitical\ rg.ttf)format('truetype')
+  src: url(../fonts/neuropolitical\ rg.ttf)format('truetype')
 }
 
-@font-face {
-  font-family: "Dosis-Regular";
-  src: url(Dosis-Regular.otf)format('truetype')
-}
+/* #endregion */
 
-/* ============== HTML/Body ============== */
+/* #region ===================================== HTML/Body  ===================================== */
 
-body,html {
+body, html {
   margin: 0;
   padding: 0;
-  font-family: 'Dosis-Regular';
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: black;
   color: white;
   font-size: 14px;
@@ -63,7 +60,19 @@ a:hover {
   text-decoration: none;
 }
 
-/* ============== Social Icons ============== */
+/* #endregion */
+
+/* #region ======================================= Footer ======================================= */
+
+footer {
+  height: 50px;
+  line-height: 50px;
+}
+
+/* #endregion */
+
+/* #region ==================================== Social Icons ==================================== */
+
 .socialIcons {
   position: fixed;
   bottom: 5%;
@@ -73,3 +82,15 @@ a:hover {
 .socialIcons a {
   padding: 0 10px
 }
+
+/* #endregion */
+
+/* #region ==================================== To Top Icon  ==================================== */
+
+.backToTop {
+  position: fixed;
+  bottom: 5%;
+  left: 2%;
+}
+
+/* #endregion */

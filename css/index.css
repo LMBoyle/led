@@ -1,4 +1,4 @@
-/* ============== Repeating Throughout ============== */
+/* #region ================================ Repeating Throughout ================================ */
 
 .secTitle {
   color: #124b92;
@@ -22,8 +22,9 @@ main {
   background-size: cover;
 }
 
+/* #endregion */
 
-/* ============== Banner ============== */
+/* #region ======================================= Banner ======================================= */
 
 #banner {
   width: 95%;
@@ -32,12 +33,36 @@ main {
 }
 
 #bannerSub {
-  font-size: 4em;
+  font-size: 75px;
+  font-size: 5vw;
   text-align: center;
   margin: 15px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ============== Nav Bar ============== */
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media (max-width: 992px) {
+    #bannerSub {
+      font-size: 39px;
+      font-size: 5vw;
+    }
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media (max-width: 600px) {
+    #bannerSub {
+      font-size: 25px;
+      font-size: 5vw;
+    }
+  }
+
+  /* #endregion */
+
+/*#endregion */
+
+/* #region ====================================== Nav Bar  ====================================== */
 
 nav {
   text-align: center;
@@ -45,14 +70,35 @@ nav {
 }
 
 nav a {
-  margin: 0 20px;
+  margin: 20px 20px 10px;
+  display: grid;
 }
 
 nav i {
-  margin: 10px 10px;
+  position: relative;
+  top: -8px;
 }
 
-/* ============== Scrolling Text ============== */
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media (max-width: 991px) {
+    nav a {
+      display: block;
+    }
+
+    nav i {
+      position: initial;
+      top: 0;
+      margin-right: 10px;
+    }
+  }
+
+  /* #endregion */
+
+/* #endregion */
+
+/* #region =================================== Scrolling Text =================================== */
 
 #scrollingText {
   background: url(../img/logos/banner.jpg);
@@ -75,19 +121,59 @@ nav i {
   line-height: 100px;
 }
 
+.carousel-inner {
+  height: 80%;
+}
+
 .carousel-inner h2 {
-  color:white;
-  font-size: 4em;
-  font-family: "Neuropolitical";
+  font-size: 44px;
+  font-size: 6vh;
+  color:black;
+  font-family: "Neuropolitical", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: black;
 }
 
 .carousel-inner h3 {
-  font-size: 2em;
+  font-size: 37px;
+  font-size: 5vh;
 }
 
-/* ============== Intro ============== */
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 991px and down) */
+  @media (max-width: 991px) {
+    .carousel-inner h2 {
+      font-size: 40px;
+      font-size: 5.5vh;
+    }
+    .carousel-inner h3 {
+      font-size: 36px;
+      font-size: 5vh;
+    }
+    #scrollingText .carousel-inner {
+      top: 3em;
+    }
+  }  
+
+  /* Small devices (portrait tablets and large phones, 768px and down) */
+  @media (max-width: 709px) {
+    .carousel-inner h2 {
+      font-size: 40px;
+      font-size: 5.5vh;
+    }
+    .carousel-inner h3 {
+      font-size: 37px;
+      font-size: 5vh;
+    }
+  }  
+
+  /* #endregion */
+
+
+/* #endregion */
+
+/* #region ======================================= Intro  ======================================= */
 
 #intro {
   text-align: center;
@@ -103,7 +189,9 @@ nav i {
   font-size: 1.5em;
 }
 
-/* ============== Light Types ============== */
+/* #endregion */
+
+/* #region ==================================== Light Types  ==================================== */
 
 .lightTypes {
   width: 100%;
@@ -142,7 +230,9 @@ nav i {
   font-size: 1.2em;
 }
 
-/* ============== Services ============== */
+/* #endregion */
+
+/* #region ====================================== Services ====================================== */
 
 #services {
   line-height: 30px;
@@ -179,7 +269,9 @@ nav i {
   font-size: 1.2em;
 }
 
-/* ============== Social ============== */
+/* #endregion */
+
+/* #region ======================================= Social ======================================= */
 
 .carousel-item h5,
 .carousel-item p {
@@ -191,3 +283,5 @@ nav i {
 .carousel-item h5 {
   font-size: 1.5em;
 }
+
+/* #endregion */
