@@ -272,8 +272,14 @@ nav i {
   
   /* Large devices (laptops/desktops, 991px and down) */
   @media (max-width: 991px) {
-    #homeText {
+    #services h4,
+    #services p {
       text-align: center;
+      margin-bottom: 15px
+    }
+
+    #services p {
+      margin-bottom: 105px
     }
   }  
 
