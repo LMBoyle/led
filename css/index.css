@@ -170,7 +170,6 @@ nav i {
 
   /* #endregion */
 
-
 /* #endregion */
 
 /* #region ======================================= Intro  ======================================= */
@@ -268,6 +267,17 @@ nav i {
 #services p {
   font-size: 1.2em;
 }
+
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 991px and down) */
+  @media (max-width: 991px) {
+    #homeText {
+      text-align: center;
+    }
+  }  
+
+  /* #endregion */
 
 /* #endregion */
 
