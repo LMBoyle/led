@@ -158,12 +158,15 @@ nav i {
   /* Small devices (portrait tablets and large phones, 768px and down) */
   @media (max-width: 709px) {
     .carousel-inner h2 {
-      font-size: 40px;
-      font-size: 5.5vh;
+      font-size: 29px;
+      font-size: 3.5vh;
     }
     .carousel-inner h3 {
-      font-size: 37px;
-      font-size: 5vh;
+      font-size: 25px;
+      font-size: 3vh;
+    }
+    #scrollingText .carousel-inner {
+      top: 5em;
     }
   }  
 
@@ -280,7 +283,13 @@ nav i {
     #services p {
       margin-bottom: 105px
     }
-  }  
+  }
+
+  @media (max-width: 709px) {
+    #services img {
+      max-height: 177px;
+    }
+  }
 
   /* #endregion */
 
