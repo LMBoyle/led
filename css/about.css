@@ -28,7 +28,8 @@ h4 {
 /* #region ==================================== Testimonials ==================================== */
 
 #testimonials {
-  color: black
+  color: black;
+  margin-bottom: 30px
 }
 
 .card {
