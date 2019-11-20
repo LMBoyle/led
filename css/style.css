@@ -142,6 +142,10 @@ nav i {
   top: -8px;
 }
 
+.active a {
+  color: #124b92;
+}
+
   /* #region ================================== Media Queries  ================================== */
   
   /* Large devices (laptops/desktops, 992px and down) */
@@ -176,7 +180,7 @@ footer {
   position: fixed;
   bottom: 5%;
   right: 2%;
-  z-index: 99999;
+  z-index: 999;
 }
 
 .socialIcons a {

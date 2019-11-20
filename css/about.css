@@ -25,3 +25,31 @@ h4 {
 
 /* #endregion */
 
+/* #region ==================================== Testimonials ==================================== */
+
+#testimonials {
+  color: black
+}
+
+.card {
+  height: 240px
+}
+
+.carousel-control-prev {
+  left: -100px;
+}
+
+.carousel-control-next {
+  right: -100px;
+}
+
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media (max-width: 991px) {
+  }
+
+  /* #endregion */
+
+/* #endregion */
+
