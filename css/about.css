@@ -1,0 +1,27 @@
+/* #region ================================ Repeating Throughout ================================ */
+
+.secTitle {
+  margin: 20px 0;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* #region ====================================== About Us ====================================== */
+
+
+
+
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media (max-width: 991px) {
+  }
+
+  /* #endregion */
+
+/* #endregion */
+

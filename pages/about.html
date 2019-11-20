@@ -33,82 +33,117 @@
     <!-- Custom JS -->
     <script src="../scripts/script.js"></script>
   
-  </head>
+</head>
 
-  <body>
-    <header>
-      <!-- Banner -->
-      <div id="banner">
-        <a href="index.html">
-          <img src="../img/logos/ledtitle.png" width="100%">
-        </a>
+<body>
+  <header>
+    <!-- Banner -->
+    <div id="banner">
+      <a href="index.html">
+        <img src="../img/logos/ledtitle.png" width="100%">
+      </a>
+    </div>
+    
+    <!-- Banner Sub Text -->
+    <h2 id="bannerSub"> - Advanced Lighting Systems - </h2>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <!-- Hamburger for small screen -->
+      <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+          <!-- Home -->
+          <li class="nav-item">
+            <a href="index.html">
+              <i class="fas fa-home"></i>
+              Home
+            </a>
+          </li>
+          <!-- About -->
+          <li class="nav-item active">
+            <a href="about.html">
+              <i class="fas fa-address-card"></i>
+              About
+            </a>
+          </li>
+          <!-- Products -->
+          <li class="nav-item">
+            <a href="https://led-integrations.myshopify.com/">
+              <i class="fas fa-shopping-cart"></i>
+              Products
+            </a>
+          </li>
+          <!-- Gallery -->
+          <li class="nav-item">
+            <a href="gallery.html">
+              <i class="fas fa-images"></i>
+              Gallery
+            </a>
+          </li>
+          <!-- Contact -->
+          <li class="nav-item">
+            <a href="contact.html">
+              <i class="fas fa-comments"></i>
+              Contact
+            </a>
+          </li>
+          <!-- Projects -->
+          <li class="nav-item">
+            <a href="projects.html">
+              <i class="fas fa-tools"></i>
+              Projects
+            </a>
+          </li>
+        </ul>
       </div>
-      
-      <!-- Banner Sub Text -->
-      <h2 id="bannerSub"> - Advanced Lighting Systems - </h2>
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-        <!-- Hamburger for small screen -->
-        <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
-          aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav m-auto mt-2 mt-lg-0">
-            <!-- Home -->
-            <li class="nav-item">
-              <a href="index.html">
-                <i class="fas fa-home"></i>
-                Home
-              </a>
-            </li>
-            <!-- About -->
-            <li class="nav-item active">
-              <a href="about.html">
-                <i class="fas fa-address-card"></i>
-                About
-              </a>
-            </li>
-            <!-- Products -->
-            <li class="nav-item">
-              <a href="https://led-integrations.myshopify.com/">
-                <i class="fas fa-shopping-cart"></i>
-                Products
-              </a>
-            </li>
-            <!-- Gallery -->
-            <li class="nav-item">
-              <a href="gallery.html">
-                <i class="fas fa-images"></i>
-                Gallery
-              </a>
-            </li>
-            <!-- Contact -->
-            <li class="nav-item">
-              <a href="contact.html">
-                <i class="fas fa-comments"></i>
-                Contact
-              </a>
-            </li>
-            <!-- Projects -->
-            <li class="nav-item">
-              <a href="projects.html">
-                <i class="fas fa-tools"></i>
-                Projects
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
-  </body>
+  <aside class="socialIcons">
+    <a href="https://www.instagram.com/ledintegrations/" target="_blank" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="https://www.facebook.com/AdvancedLEDSystems/" target="_blank" class="facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+    <a href="https://www.youtube.com/channel/UCx52hHA7ago74QpMuZQTnBA" target="_blank" class="youtube"><i class="fab fa-youtube fa-2x"></i></a>
+  </aside>
+
+  <!-- TODO hide until start scrolling -->
+  <!-- TODO animation on hover -->
+  <aside class="backToTop">
+    <a href=# class="instagram"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+  </aside>
+  
+  <main>
+    <div class="container">
+      <section id="about">
+        <h3 class="secTitle"> - About Us - </h3>
+        <h4> Our Mission Statement </h4>
+        <p> Shaping the future of lighting... We are experts everything LED. If you think you can fit a strip of LED lights in somewhere, we can make it happen. Your goal is our priority. </p>
+      </section>
+
+      <section id="testimonials">
+        <h3 class="secTitle"> - Testimonials - </h3>
+        <h4> What People Are Saying About Us </h4>
+        <p> LED Integrations is the best! </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="text-muted">
+    <div class="container">
+      <p class="text-center"> &copy; 2019 LED Integrations. All rights reserved </p>
+    </div>
+  </footer>
+
+</body>
+
 <!-- ! ====================================== FIX BELOW ====================================== -->
 
 
 
-  <div class="about">
+  <!-- <div class="about">
     <div class="container">
       <h2>About</h2>
       <div class="about-grids">
@@ -194,13 +229,11 @@
       </div>
     </div>
   </div>
-  <!---->
   <div class="copywrite">
     <div class="container">
       <p> © 2016 LED Integrations. All rights reserved</p>
     </div>
   </div>
-  <!---->
 </body>
 
-</html>
+</html> -->
