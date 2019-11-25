@@ -32,6 +32,7 @@
   
     <!-- Custom JS -->
     <script src="../scripts/script.js"></script>
+    <!-- <script language="JavaScript" src="../scripts/gen_validatorv31.js" type="text/javascript"></script> -->
   
 </head>
 
@@ -117,8 +118,55 @@
   
   <main>
     <div class="container">
-      <section id="contact">
+      <section class="text-center" id="contact">
         <h3 class="secTitle"> - Contact Us - </h3>
+        <a href="mailto:ledinteg@led-integrations.com"><i class="far fa-envelope"></i>ledinteg@led-integrations.com</a>
+        <div class="row workersInfo text-center">
+          <div class="col">
+            <h3> Casey McIntyre </h3>
+            <p> Owner/Lighting Specialist</p>
+            <p> 336.257.9935 </p>
+          </div>
+          <div class="col">
+            <h3> Randy McIntyre </h3>
+            <p> Commercial Sales & Installation </p>
+            <p> 336.567.2720 </p>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row extraInfo text-center">
+          <div class="col">
+            <p> Hours: </p>
+            <p> Mon-Fri: 8:30 am - 5:00 pm </p>
+            <p> Sat: By Appointment Only </p>
+          </div>
+          <div class="col text-center secContact">
+            <form class="contact">
+              <label> Name </label>
+              <input class="contactInfo" id="contactName" type="text" name="name" placeholder="John Doe"/>
+            </form>
+
+            <form class="contact">
+                <label> Email </label>
+                <input class="contactInfo" id="contactEmail" type="email" name="email" placeholder="YourEmail@email.com"/>
+            </form>
+
+            <form class="contact">
+                <label> Message </label>
+                <textarea class="contactInfo" id="contactMessage" name="message" placeholder="Your Message Here"></textarea>
+            </form>
+
+            <input type="submit" value="Submit"/>
+
+            <div id="contactOverlay">
+              Coming Soon!
+            </div>
+          </div>
+
+
+        </div>
       </section>
     </div>
   </main>
@@ -128,73 +176,6 @@
       <p class="text-center"> &copy; 2019 LED Integrations. All rights reserved </p>
     </div>
   </footer>
-  
 
 </body>
-
-      
-<!-- ! ====================================== FIX BELOW ====================================== -->
-
-  <div class="contact">
-    <div class="container">
-      <h3 class="hdng">How to Find Us</h3>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.474635671718!2d-79.47606468496726!3d36.08191631550041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885329608d53150f%3A0x53ba7301881dbb2f!2s2309+S+Church+St%2C+Burlington%2C+NC+27215!5e0!3m2!1sen!2sus!4v1455765707892"
-          frameborder="0" style="border:0" allowfullscreen></iframe>
-
-      </div>
-    </div>
-    <div class="contact-form">
-      <div class="container">
-        <h3 class="hdng">Contact Us</h3>
-        <div class="contact-grids-info">
-          <div class="col-md-7 contact-right">
-
-
-
-            <form>
-              <input type="text" name="name" value="Name" onfocus="this.value = '';"
-                onblur="if (this.value == '') {this.value = 'Name';}" required="">
-              <input type="text" name="email" value="Email" onfocus="this.value = '';"
-                onblur="if (this.value == '') {this.value = 'Email';}" required="">
-              <input type="text" name="phone" value="Telephone" onfocus="this.value = '';"
-                onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
-              <textarea name="message" onfocus="this.value = '';"
-                onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-              <input type="submit" value="Submit">
-            </form>
-
-          </div>
-          <div class="col-md-5 contact-left">
-            <p>Hours:<br>
-              Mon-Fri: 7:00 am - 7:00 pm<br>
-              Sat: 7:00 am - 2:00 pm
-            </p>
-            <ul>
-              <li><span class="glyphicon3 glyphicon-map-marker" aria-hidden="true"></span>
-                2309 S Church St, Burlington, NC 27215
-              </li>
-              <li><span class="glyphicon3 glyphicon-earphone" aria-hidden="true"></span>
-                (336) 257-9935
-              </li>
-              <li><span class="glyphicon3 glyphicon-envelope" aria-hidden="true"></span>
-                <a href="mailto:contact@led-integrations.com">contact@led-integrations.com</a>
-              </li>
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!---->
-  <div class="copywrite">
-    <div class="container">
-      <p> © 2016 LED Integrations. All rights reserved</p>
-    </div>
-  </div>
-  <!---->
-</body>
-
 </html>

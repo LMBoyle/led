@@ -1,3 +1,20 @@
+/* #region =================================== Gallery Images =================================== */
+
 .tab-pane {
   margin-top: 20px;
 }
+
+/* #galleryTabContent img {
+  width: 150px;
+  height: 150px
+} */
+
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media (max-width: 991px) {
+  }
+
+  /* #endregion */
+
+/* #endregion */
