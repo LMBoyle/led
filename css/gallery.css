@@ -1,3 +1,29 @@
+/* #region ==================================== Gallery Tabs ==================================== */
+
+.nav-link {
+  box-shadow: 0 0 2px 4px #124b92;
+  margin: 0 5px;
+}
+
+.nav-link.active {
+  background-color: #124b92!important;
+}
+
+.nav-link:hover {
+  background-color: #124b92;
+  color: white
+}
+
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media (max-width: 991px) {
+  }
+
+  /* #endregion */
+
+/* #endregion */
+
 /* #region =================================== Gallery Images =================================== */
 
 .tab-pane {
