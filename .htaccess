@@ -1,0 +1,23 @@
+
+RewriteOptions inherit
+
+RewriteEngine On
+
+# Hide /pages/ in url
+RewriteRule ^$ pages/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ pages/$1
+
+# Hide .html in url
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Redirect '/' to '/pages/index.html'
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^/?$ "http\:\/\/led\-integrations\.com\/pages\/index\.html" [R=301,L]
+
+# Redirect '/index' to '/pages/index.html'
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^index$ "http\:\/\/led\-integrations\.com\/pages\/index\.html" [R=301,L]

@@ -10,6 +10,8 @@ h4 {
   margin-bottom: 20px;
 }
 
+/* #endregion */
+
 /* #region ====================================== About Us ====================================== */
 
 
@@ -33,7 +35,20 @@ h4 {
 }
 
 .card {
-  height: 240px
+  height: 235px;
+  color: white;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.card-header {
+  background-color: grey;
+}
+
+.blockquote-footer {
+  height: 10px
 }
 
 .carousel-control-prev {
