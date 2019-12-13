@@ -221,4 +221,10 @@
   font-size: 2em;
 }
 
+#newsCarouselControls img {
+  height: 303px;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* #endregion */

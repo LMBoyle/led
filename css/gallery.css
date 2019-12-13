@@ -30,10 +30,11 @@
   margin-top: 20px;
 }
 
-/* #galleryTabContent img {
-  width: 150px;
-  height: 150px
-} */
+#galleryTabContent img {
+  height: 193.5px;
+  object-fit: cover;
+  object-position: center;
+}
 
   /* #region ================================== Media Queries  ================================== */
   
