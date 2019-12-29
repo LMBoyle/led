@@ -30,10 +30,48 @@
   margin-top: 20px;
 }
 
-#galleryTabContent img {
-  height: 193.5px;
+.thumbnail {
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.thumbnail img {
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   object-position: center;
+}
+
+#galleryTabContent .row {
+  /* width: 80%; */
+}
+
+  /* #region ================================== Media Queries  ================================== */
+  
+  /* Large devices (laptops/desktops, 992px and down) */
+  @media (max-width: 991px) {
+  }
+
+  /* #endregion */
+
+/* #endregion */
+
+/* #region ===================================== Light Box  ===================================== */
+
+.modal-content button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 2px;
+  font-size: 30px;
+  background-color: transparent;
+  border: 0;
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.modal-content button:hover {
+  color: rgba(255, 255, 255, 1)
 }
 
   /* #region ================================== Media Queries  ================================== */
