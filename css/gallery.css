@@ -43,9 +43,15 @@
   object-position: center;
 }
 
-#galleryTabContent .row {
-  /* width: 80%; */
+.thumbnail:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 8px 2.5px whitesmoke;
 }
+
+#galleryTabContent {
+  padding-bottom: 20px;
+}
+
 
   /* #region ================================== Media Queries  ================================== */
   
